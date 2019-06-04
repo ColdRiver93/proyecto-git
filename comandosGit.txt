@@ -11,3 +11,8 @@ git checkout -- <Archivo>	//Devuelve el archivo modificado a su estado anterior(
 git diff -- <Archivo>		//Muestra diferencias entre el archivo del git y el nuevo modificado
 
 .gitignore				//Archivo para ignorar arvhivos dentro de una carpeta al añadir al git
+git branch				//Muestra las ramas (La verde es en la que está)
+git branch rama2		//Crea la rama "rama2"(ej)
+git checkout rama2		//Cambia a la rama2 para trabajar
+git remote add origin https://github.com/ColdRiver93/proyecto-git.git //Relaciona el repositorio en Github con el local(compu)
+git push -u origin master	//Sube el repositorio(git) seleccionado local(compu) a Github(internet)
