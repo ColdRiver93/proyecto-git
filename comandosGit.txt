@@ -2,9 +2,12 @@ git init				//Iniciar git(oculto en la carpeta)
 git status				//Indica el estado de los archivos(inluidos/no incluidos/ modificados)
 git add <Archivo>		//Añade un archivo al Git
 git add .				//Añade todos los archivos que falten al Git
-git commit				//Sube el commit
+git config --global user.email "email@gmail.com"	//Configura el email
+git config --global user.name "Name" 				//Configura el nombre
+git commit				//Abre ventana para subir commit
+	
 git commit -m "Message"	//Sube el commit con un mensaje
-git checkout -- <Archivo>
-git diff -- <Archivo>
-git config --global user.email "email@gmail.com"
-git config --global user.name "Name" 
+git checkout -- <Archivo>	//Devuelve el archivo modificado a su estado anterior(en el git)
+git diff -- <Archivo>		//Muestra diferencias entre el archivo del git y el nuevo modificado
+
+.gitignore				//Archivo para ignorar arvhivos dentro de una carpeta al añadir al git
